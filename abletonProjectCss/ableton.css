@@ -1,14 +1,29 @@
+:root {
+    --yellow: #fbffa7;
+
+    --orange: #ff764d;
+
+    --light-blue: #b1c5ff;
+
+    --purple: #d5b3ff;
+
+    --green: #b6ffc0;
+
+    --blue: #0000ff;
+  }
+
+
 body {
    
 }
 
 .container {
     align-content: center;
+    text-align: center;
 }
 
 .container-small {
-    margin-top: 50px;
-
+    padding: 50px;
 }
 
 .container-small ul {
@@ -21,4 +36,27 @@ body {
     float: left;
     display: block;
     padding: 8px;
+}
+
+#big-picture {
+    position: relative;
+    height: 550px;
+}
+
+#big-picture img {
+    width: 70%;
+    height: 100%;
+}
+
+#text-column {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.text-align-container {
+    display: inline-block;
+    text-align: left;
 }
