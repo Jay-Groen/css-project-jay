@@ -1,0 +1,24 @@
+body {
+   
+}
+
+.container {
+    align-content: center;
+}
+
+.container-small {
+    margin-top: 50px;
+
+}
+
+.container-small ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-small li {
+    float: left;
+    display: block;
+    padding: 8px;
+}
